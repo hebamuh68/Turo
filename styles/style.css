@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;800&family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat';
+}
+
+@media only screen and (min-width: 996px) {
+
+    .navbar {
+        height: 9%;
+    }
+}
+
+
+.dropdown-menu a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 36px;
+
+}
+
+
+.dropdown-menu a:hover {
+
+    color: white;
+    font-weight: 700;
+    background-color: #E764DE;
+
+}
+
+
+
+.img {
+    z-index: 0;
+}
+
+.text-over-img h1 {
+    position: absolute;
+
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 62px;
+
+
+    color: #FFFFFF;
+
+    margin-top: -38%;
+    margin-left: 8%;
+}
+
+.text-over-img p {
+    position: absolute;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+
+    margin-top: -31%;
+    margin-left: 9%;
+}

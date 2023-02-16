@@ -1,40 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-  <!-- Required meta tags always come first -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-  <link rel="stylesheet" href="styles/style.css">
-
-  <title>Turo</title>
-</head>
-
-<body class="d-flex flex-column min-vh-100">
-
-  <!-- =============================================== Nav bar =================================================== -->
-  <nav class="navbar navbar-expand-lg fixed-top shadow-sm p-3 mb-5 bg-white ">
-
+/*
+<nav class="navbar navbar-expand-md shadow-sm  ps-5 bg-white rounded" aria-label="Fourth navbar example">
+    
     <div class="container-fluid">
+      
+      <a class="navbar-brand logoImag pe-5 " href="#">
+        <img src="images/logo.png" width="155" height="72" alt="">
+      </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Navbar">
+      <button class="navbar-toggler btnNav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <a class="navbar-brand ps-5 pe-5" href="#">
-        <img src="images/logo.png" alt="">
-      </a>
-
-      <div class="collapse navbar-collapse " id="Navbar">
-        <ul class="navbar-nav">
-
+      <div class="collapse navbar-collapse restNav" id="navbarsExample04">
+        
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          
           <li class="nav-item dropdown pe-5">
             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Hosting</a>
             <ul class="dropdown-menu">
@@ -70,48 +50,23 @@
             </ul>
           </li>
 
-          <li class="nav-item dropdown pe-5 ">
+          <li class="nav-item dropdown pe-5">
             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">About</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">How Turo works</a></li>
               <li><a class="dropdown-item" href="#">Terms of service</a></li>
             </ul>
           </li>
-        </ul>
 
-        <ul class="navbar-nav justify-content-end ms-auto pe-5">
-          <li class="nav-item">
-            <a class="nav-link" href="#" aria-expanded="false">Contact support</a>
+          <li class="nav-item ps-5" >
+            <a class="nav-link active" aria-current="page" href="#">Contact support</a>
           </li>
-
-          <li class="nav-item pe-5">
-            <a class="nav-link" href="#" aria-expanded="false">Log in</a>
+          <li class="nav-item ps-5" >
+            <a class="nav-link" href="#">Log in</a>
           </li>
         </ul>
 
       </div>
     </div>
   </nav>
-
-  <!-- =============================================== Body1 =================================================== -->
-
-  <div class="parent">
-    <img src="images/bg.png" class="img img-fluid" alt="Responsive image">
-    <div class="text-over-img">
-      <h1>Find your drive</h1>
-      <p>Explore the world's largest car <br> sharing marketplace</p>
-    </div>
- </div>
-
-    
-
-
-
-  <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-  <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-</body>
-
-</html>
+  */
