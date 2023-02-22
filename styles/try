@@ -1,101 +1,483 @@
-<section class="pt-5 pb-5">
-  <div class="container">
-    <div class="row">
+<!DOCTYPE html>
+<html lang="en">
 
-      <!-- BUTTONS ---------------------------------------------------------------------------------------------------------------------->
-      <div class="col-12 text-right">
-        <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-          <i class="fa fa-arrow-left"></i>
-        </a>
-        <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
-          <i class="fa fa-arrow-right"></i>
-        </a>
+<head>
+
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+  <link rel="stylesheet" href="styles/style.css">
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <title>Turo</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- =============================================== Nav bar =================================================== -->
+  <nav class="navbar navbar-expand-lg fixed-top shadow-sm p-3 mb-5 bg-white ">
+
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a class="navbar-brand ps-5 pe-5" href="#">
+        <img src="images/logo.png" alt="">
+      </a>
+
+      <div class="collapse navbar-collapse " id="Navbar">
+        <ul class="navbar-nav">
+
+          <li class="nav-item dropdown pe-5">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Hosting</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Become a host</a></li>
+              <li><a class="dropdown-item" href="#">Host tools</a></li>
+              <li><a class="dropdown-item" href="#">Insurance & protection</a></li>
+              <li><a class="dropdown-item" href="#">All-Star Hosts</a></li>
+              <li><a class="dropdown-item" href="#">Carculator</a></li>
+              <li><a class="dropdown-item" href="#">FAQs</a></li>
+
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown pe-5">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Gift Cards</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Buy a gift card</a></li>
+              <li><a class="dropdown-item" href="#">Redeem your card</a></li>
+              <li><a class="dropdown-item" href="#">Explore card designs</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown pe-5">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Travelogues</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">travelogues</a></li>
+              <li><a class="dropdown-item" href="#">Gearheads</a></li>
+              <li><a class="dropdown-item" href="#">Cancellation policy</a></li>
+              <li><a class="dropdown-item" href="#">Insights</a></li>
+              <li><a class="dropdown-item" href="#">News</a></li>
+              <li><a class="dropdown-item" href="#">Community</a></li>
+              <li><a class="dropdown-item" href="#">Wayfaring</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown pe-5 ">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">How Turo works</a></li>
+              <li><a class="dropdown-item" href="#">Terms of service</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav justify-content-end ms-auto pe-5">
+          <li class="nav-item">
+            <a class="nav-link" href="#" aria-expanded="false">Contact support</a>
+          </li>
+
+          <li class="nav-item pe-5">
+            <a class="nav-link" href="#" aria-expanded="false">Log in</a>
+          </li>
+        </ul>
+
       </div>
+    </div>
+  </nav>
 
-      <!-- Make Cards ---------------------------------------------------------------------------------------------------------------------->
-      <div class="col-12">
-        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+  <!-- =============================================== section 1 =================================================== -->
 
-          <div class="carousel-inner">
+  <div class="parent section1">
+    <img src="images/bg.png" class="img img-fluid" alt="Responsive image">
 
-      <!-- ROW 1 ---------------------------------------------------------------------------------------------------------------------->
-            <div class="carousel-item active">
-              <div class="row">
+    <div class="text-over-img ">
+      <h1>Find your drive</h1>
+      <p><mark id="marker">the world's largest car</mark>sharing marketplace</p>
+    </div>
+  </div>
 
-                <div class="col-md-3 mb-3">
-                  <div class="card">
-                    <img class="img-fluid" alt="100%x280"src="images/make/1.png">
-                    <div class="card-body">
-                      <h4 class="card-title">Jeep</h4>
-                    </div>
-                  </div>
-                </div>
+  <!-- =============================================== section 2 =================================================== -->
+  <div class="section2 text-center container pt-5">
+    <h1>Browse Cars by</h1>
 
+    <div class="text-center options d-flex flex-row pt-5 align-items-center justify-content-center">
+      <div class="pe-5"><u id="chose">Make</u></div>
+      <div class="pe-5">Destination</div>
+      <div class="pe-5">Experience</div>
+      <div class="pe-5">Category</div>
+    </div>
 
-                <div class="col-md-3 mb-3">
-                  <div class="card">
-                    <img class="img-fluid" alt="100%x280"src="images/make/2.webp">
-                    <div class="card-body">
-                      <h4 class="card-title">Tesla</h4>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-3 mb-3">
-                  <div class="card">
-                    <img class="img-fluid" alt="100%x280"src="images/make/3.jpg">
-                    <div class="card-body">
-                      <h4 class="card-title">Subaru</h4>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-3 mb-3">
-                  <div class="card">
-                    <img class="img-fluid" alt="100%x280"src="images/make/4.jpg">
-                    <div class="card-body">
-                      <h4 class="card-title">Porsche</h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-      <!-- ROW 2 ---------------------------------------------------------------------------------------------------------------------->
-      <div class="carousel-item">
+    <section class="pt-5 pb-5">
+      <div class="container">
         <div class="row">
 
-          <div class="col-md-3 mb-3">
-            <div class="card">
-              <img class="img-fluid" alt="100%x280"src="images/make/5.webp">
-              <div class="card-body">
-                <h4 class="card-title">Jeep</h4>
-              </div>
-            </div>
+
+          <!-- BUTTONS ---------------------------------------------------------------------------------------------------------------------->
+          <div class="col-12 text-right">
+            <a class="btn  mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+              <i class="fa fa-arrow-left"></i>
+            </a>
+            <a class="btn  mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+              <i class="fa fa-arrow-right"></i>
+            </a>
           </div>
 
 
-          <div class="col-md-3 mb-3">
-            <div class="card">
-              <img class="img-fluid" alt="100%x280"src="images/make/6.webp">
-              <div class="card-body">
-                <h4 class="card-title">Tesla</h4>
+          <!-- Make Cards ---------------------------------------------------------------------------------------------------------------------->
+          <div class="col-12 pb-5">
+            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+              <div class="carousel-inner pb-5">
+
+                <!-- ROW 1 ---------------------------------------------------------------------------------------------------------------------->
+                <div class="carousel-item active">
+                  <div class="row">
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="images/make/1.png">
+                        <div class="card-body">
+                          <h4 class="card-title">Jeep</h4>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="images/make/2.webp">
+                        <div class="card-body">
+                          <h4 class="card-title">Tesla</h4>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="images/make/3.jpg">
+                        <div class="card-body">
+                          <h4 class="card-title">Subaru</h4>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="images/make/4.jpg">
+                        <div class="card-body">
+                          <h4 class="card-title">Porsche</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- ROW 2 ---------------------------------------------------------------------------------------------------------------------->
+                <div class="carousel-item">
+                  <div class="row">
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="images/make/5.webp">
+                        <div class="card-body">
+                          <h4 class="card-title">Jeep</h4>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="images/make/6.webp">
+                        <div class="card-body">
+                          <h4 class="card-title">Tesla</h4>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="images/make/7.jpg">
+                        <div class="card-body">
+                          <h4 class="card-title">Subaru</h4>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="images/make/6.webp">
+                        <div class="card-body">
+                          <h4 class="card-title">Tesla</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </div>
+          </div>
+    </section>
+  </div>
+
+  <!-- =============================================== section 3 =================================================== -->
+
+  <div class="parent section3">
+    <img src="images/section3.png" class="img img-fluid" alt="Responsive image">
+
+    <div class="text-over-img ">
+
+      <div class="fuel">
+        <h1 class=" pt-5 ps-4">Fuel your daydreams</h1>
+        <p class="pt-0">Stoke your wanderlust with some dreamy photo <br>chronicles of road trip adventures.</p>
+        <a href="#" class=" btn btn-light btn-lg explore" role="button" aria-pressed="true">Explore Travelogues</a>
+      </div>
+
+      <!-- little pic ---------------------------------------------------------------------------------------------------------------------->
+      <div class="container">
+        <div class="row justify-content-md-center">
+
+          <div class="card bg-dark text-white p-4" style="width: 25rem;">
+            <div class="card-body text-white">
+              <h6 class="card-subtitle mb-2 text-muted  text-white pb-4" style="color: white;">FEATURED TRAVELOGUE</h6>
+              <h5 class="card-title text-white pb-3">An Olympic experience in Washington</h5>
+              <p class="card-text  text-white">Discover the epic waterfalls, moody weather, and lush forests of
+                coastal Washington.</p>
+              <a href="#" class="card-link  text-white">Read more</a>
             </div>
           </div>
 
-          <div class="col-md-3 mb-3">
-            <div class="card">
-              <img class="img-fluid" alt="100%x280"src="images/make/7.jpg">
-              <div class="card-body">
-                <h4 class="card-title">Subaru</h4>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
 
+    </div>
+
+  </div>
+
+  <!-- =============================================== section 4 =================================================== -->
+
+  <div class="parent section4 pb-5">
+    <img src="images/section4.png" class="img img-fluid " alt="Responsive image">
+
+    <div class="text-over-img ">
+
+      <div class="container mb-5">
+        <div class="">
+          <h1><mark id="marker" style="color: #121214;">Shop Turo gift cards</mark></h1>
+          <p>Introducing Turo gift cards! Give the gift of<br> exploration or help make any special <br>occasion
+            extra-memorable.</p>
+        </div>
+        <a href="#" class=" btn btn-light btn-lg explore mb-5" role="button" aria-pressed="true">Shop gift cards</a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- =============================================== section 5 =================================================== -->
+
+  <div class="parent section3 section5 ">
+    <img src="images/section5.png" class="img img-fluid" alt="Responsive image">
+
+    <div class="text-over-img pt-5">
+
+      <div class="fuel">
+        <h1 class=" ps-3">Meet the hosts</h1>
+        <p>Top hosts on Turo</p>
+      </div>
+
+      <section class="reviewSection" style="color: #121214;">
+        <div class="row">
+
+          <!-- BUTTONS ---------------------------------------------------------------------------------------------------------------------->
+          <div class="col-12 text-right">
+            <a class="btn  mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+              <i class="fa fa-arrow-left"></i>
+            </a>
+            <a class="btn mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+              <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+
+
+
+        </div>
+        <div class="container pt-2">
+
+          <!-- Row 1 ---------------------------------------------------------------------------------------------------------------------->
+          <div class="row text-center">
+            <!-- card 1 ---------------------------------------------------------------------------------------------------------------------->
+            <div class="col-md-3 mb-4 mb-md-0  review">
+              <div class="card">
+                <div class="card-body py-4 mt-2">
+                  <div class="d-flex justify-content-center mb-4">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                      class="rounded-circle shadow-1-strong" width="100" height="100" />
+                  </div>
+                  <h5 class="font-weight-bold">Teresa May</h5>
+                  <h6 class="font-weight-bold my-3">Founder at ET Company</h6>
+                  <ul class="list-unstyled d-flex justify-content-center">
+                    <li>
+                      <i class="fas fa-star fa-sm text-info"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm text-info"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm text-info"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm text-info"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star-half-alt fa-sm text-info"></i>
+                    </li>
+                  </ul>
+                  <p class="mb-2" style="font-size: 14px;">
+                    <i class="pe-2"></i>Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- card1 ---------------------------------------------------------------------------------------------------------------------->
+            <div class="col-md-3 mb-4 mb-md-0 review">
+              <div class="card">
+                <div class="card-body py-4 mt-2">
+                  <div class="d-flex justify-content-center mb-4">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(15).webp"
+                      class="rounded-circle shadow-1-strong" width="100" height="100" />
+                  </div>
+                  <h5 class="font-weight-bold">Maggie McLoan</h5>
+                  <h6 class="font-weight-bold my-3">Photographer at Studio LA</h6>
+                  <ul class="list-unstyled d-flex justify-content-center">
+                    <li>
+                      <i class="fas fa-star fa-sm text-info"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm text-info"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm text-info"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm text-info"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm text-info"></i>
+                    </li>
+                  </ul>
+                  <p class="mb-2" style="font-size: 14px;">
+                    <i class="pe-2 "></i>Autem, totam debitis suscipit saepe
+                    sapiente magnam officiis quaerat necessitatibus odio assumenda perferendis
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- card3 ---------------------------------------------------------------------------------------------------------------------->
+            <div class="col-md-3 mb-0 review">
+              <div class="card">
+                <div class="card-body py-4 mt-2">
+                  <div class="d-flex justify-content-center mb-4">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(17).webp"
+                      class="rounded-circle shadow-1-strong" width="100" height="100" />
+                  </div>
+                  <h5 class="font-weight-bold ">Alexa Horwitz</h5>
+                  <h6 class="font-weight-bold my-3">Front-end Developer in NY</h6>
+                  <ul class="list-unstyled d-flex justify-content-center">
+                    <li>
+                      <i class="fas fa-star fa-sm text-info"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm text-info"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm text-info"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm text-info"></i>
+                    </li>
+                    <li>
+                      <i class="far fa-star fa-sm text-info"></i>
+                    </li>
+                  </ul>
+                  <p class="mb-2" style="font-size: 14px;">
+                    <i class="pe-2"></i>Cras sit amet nibh libero, in gravida
+                    nulla metus scelerisque ante sollicitudin commodo cras purus odio,
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- card3 ---------------------------------------------------------------------------------------------------------------------->
+            <div class="col-md-3 mb-0 review">
+              <div class="card">
+                <div class="card-body py-4 mt-2">
+                  <div class="d-flex justify-content-center mb-4">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(17).webp"
+                      class="rounded-circle shadow-1-strong" width="100" height="100" />
+                  </div>
+                  <h5 class="font-weight-bold ">Alexa Horwitz</h5>
+                  <h6 class="font-weight-bold my-3">Front-end Developer in NY</h6>
+                  <ul class="list-unstyled d-flex justify-content-center">
+                    <li>
+                      <i class="fas fa-star fa-sm text-info"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm text-info"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm text-info"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm text-info"></i>
+                    </li>
+                    <li>
+                      <i class="far fa-star fa-sm text-info"></i>
+                    </li>
+                  </ul>
+                  <p class="mb-2" style="font-size: 14px;">
+                    <i class="pe-2"></i>Cras sit amet nibh libero, in gravida
+                    nulla metus scelerisque ante sollicitudin commodo cras purus odio,
+                  </p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
-      </div>
-</section>
+      </section>
+
+
+    </div>
+
+
+
+  </div>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+
+  <!-- ================================================================================================== -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+  <!-- ================================================================================================== -->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+  </script>
+</body>
+
+</html>

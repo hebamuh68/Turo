@@ -72,14 +72,41 @@ body {
 
     margin-top: 3.5%;
     margin-left: 9%;
+}
 
+.search-sec button{
+    background-color: #E764DE !important;
+    color: white;
+    border-radius: 0px 40px 40px 0px;
+
+    height: 250%;
+
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.search-sec input{
+    border-radius: 0px ;
+    padding-left: 10%;
+    margin-left: 24%;
+
+    height: 250%;
+}
+
+.search-sec .place{
+    border-radius: 40px 0px 0px 40px;
+}
+
+.search-sec{
+    padding-top: 8%;
 }
 
 /*======================================= Section 2  ================================================*/
 
 .section2 {
     position: relative;
-    margin-top: 32%;
+    margin-top: 25%;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -165,7 +192,7 @@ body {
     font-family: 'Montserrat Alternates';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 62px;
 
     color: #121214;
@@ -188,7 +215,7 @@ body {
 
 }
 
-.section3 .btn {
+.section3 .explore {
 
     background-color: #E764DE !important;
     color: white;
@@ -257,7 +284,7 @@ body {
     font-family: 'Montserrat Alternates';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 62px;
 
     color: #121214;
@@ -294,9 +321,114 @@ body {
 
 }
 
-.cc{
+/*======================================= Section 5 ================================================*/
+
+.cc {
     width: 65%;
     border-radius: 50%;
     margin: 0 auto;
-    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.card {
+    border-radius: .7rem;
+}
+
+.review {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+
+.reviewBody {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5px;
+
+}
+
+.reviewSection{
+    position: relative;
+   
+}
+
+.section5 .card .img-fluid {
+    height: 12rem;
+}
+
+.section5 .card .card-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+.section5 .btn {
+    background-color: #E764DE !important;
+    color: white;
+}
+
+.section5 .fa {
+    color: white;
+
+}
+
+/*======================================= Section 6 ================================================*/
+
+
+.section6 h1{
+    padding-top: 45%;
+    color: #121214;
+    font-family: 'Montserrat';
+    position: relative;
+
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 62px;
+
+    color: #121214;
+
+    margin-top: -38%;
+
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #e764de79;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #e764de79;
+
+    color: #121214;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.accordion-active-color{
+   color : #e764de79;
+}
+.accordion-active-bg{
+    color : #e764de79;
+
+}
+
+/*======================================= Footer ================================================*/
+
+.Footer{
+    background-color: #F4F4F4;
+
+}
+
+.Footer li{
+    list-style-type: none ;
+    font-size: 12px;
 }
