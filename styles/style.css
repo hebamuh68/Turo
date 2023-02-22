@@ -5,6 +5,15 @@ body {
     font-family: 'Montserrat';
 }
 
+#marker {
+
+    background: linear-gradient(90.05deg, rgba(231, 100, 222, 0.56) -5.35%, rgba(231, 100, 222, 0) 99.91%);
+    border-radius: 40px;
+    transform: matrix(1, 0, 0.01, 1, 0, 0);
+    color: white;
+
+}
+
 @media only screen and (min-width: 996px) {
 
     .navbar {
@@ -36,8 +45,8 @@ body {
     z-index: 0;
 }
 
-.text-over-img h1 {
-    position: absolute;
+.section1 h1 {
+    position: relative;
 
 
     font-family: 'Montserrat Alternates';
@@ -53,16 +62,241 @@ body {
     margin-left: 8%;
 }
 
-.text-over-img p {
-    position: absolute;
-
+.section1 p {
+    position: relative;
     font-style: normal;
-    font-weight: 500;
     font-size: 20px;
     line-height: 35px;
 
     color: #FFFFFF;
 
-    margin-top: -31%;
+    margin-top: 3.5%;
     margin-left: 9%;
+
+}
+
+/*======================================= Section 2  ================================================*/
+
+.section2 {
+    position: relative;
+    margin-top: 32%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.9681px;
+    line-height: 17px;
+
+    color: #121214;
+}
+
+.section2 h1 {
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 62px;
+
+}
+
+.section2 .pe-5 {
+    padding-left: 10%;
+
+}
+
+#chose {
+    text-decoration-color: #E764DE;
+    text-decoration-line: underline;
+    text-decoration-thickness: 4px;
+    font-weight: 700;
+
+}
+
+.section2 .card .img-fluid {
+    height: 12rem;
+}
+
+.section2 .card .card-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+.section2 .btn {
+    background-color: #E764DE !important;
+    color: white;
+}
+
+.section2 .fa {
+    color: white;
+
+}
+
+/*======================================= Section 3 ================================================*/
+
+.maintxt h1 {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 62px;
+
+    color: #121214;
+}
+
+.maintxt p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+
+    color: #121214;
+}
+
+.section3 h1 {
+    position: relative;
+
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 62px;
+
+    color: #121214;
+
+    margin-top: -38%;
+    margin-left: 8%;
+}
+
+.section3 p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+
+    color: #121214;
+
+    margin-left: 9%;
+
+}
+
+.section3 .btn {
+
+    background-color: #E764DE !important;
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 10px;
+
+    border-radius: 15px;
+
+    margin-left: 9%;
+
+}
+
+.section3 .fuel {
+    margin-top: 3%;
+}
+
+.section3 .bg-dark {
+
+    background: #121214 !important;
+    border-radius: 5.39308px;
+}
+
+.section3 .card-subtitle {
+    font-family: ''Montserrat'';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 33px;
+}
+
+.section3 .card-title {
+    font-family: ''Montserrat'';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.section3 .card-text {
+    font-family: ''Montserrat'';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.section3 .card-link {
+    font-family: ''Montserrat'';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 33px;
+
+    text-decoration-line: underline;
+}
+
+/*======================================= Section 4 ================================================*/
+.section4 h1 {
+    position: relative;
+    margin-top: -33%;
+    margin-left: 55%;
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 62px;
+
+    color: #121214;
+
+
+}
+
+.section4 p {
+    margin-top: 1%;
+    margin-left: 56%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #121214;
+}
+
+.section4 .btn {
+    margin-left: 56%;
+    margin-top: 3%;
+
+    background-color: #E764DE !important;
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 10px;
+
+    border-radius: 15px;
+
+}
+
+.cc{
+    width: 65%;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
 }

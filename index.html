@@ -14,6 +14,9 @@
   <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
   <link rel="stylesheet" href="styles/style.css">
 
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
   <title>Turo</title>
 </head>
 
@@ -93,25 +96,263 @@
     </div>
   </nav>
 
-  <!-- =============================================== Body1 =================================================== -->
+  <!-- =============================================== section 1 =================================================== -->
 
-  <div class="parent">
+  <div class="parent section1">
     <img src="images/bg.png" class="img img-fluid" alt="Responsive image">
-    <div class="text-over-img">
+
+    <div class="text-over-img ">
       <h1>Find your drive</h1>
-      <p>Explore the world's largest car <br> sharing marketplace</p>
+      <p><mark id="marker">the world's largest car</mark>sharing marketplace</p>
     </div>
- </div>
+  </div>
 
-    
+  <!-- =============================================== section 2 =================================================== -->
+  <div class="section2 text-center container pt-5">
+    <h1>Browse Cars by</h1>
+
+    <div class="text-center options d-flex flex-row pt-5 align-items-center justify-content-center">
+      <div class="pe-5"><u id="chose">Make</u></div>
+      <div class="pe-5">Destination</div>
+      <div class="pe-5">Experience</div>
+      <div class="pe-5">Category</div>
+    </div>
+
+    <section class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
 
 
+          <!-- BUTTONS ---------------------------------------------------------------------------------------------------------------------->
+          <div class="col-12 text-right">
+            <a class="btn  mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+              <i class="fa fa-arrow-left"></i>
+            </a>
+            <a class="btn  mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+              <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+
+
+          <!-- Make Cards ---------------------------------------------------------------------------------------------------------------------->
+          <div class="col-12 pb-5">
+            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+              <div class="carousel-inner pb-5">
+
+                <!-- ROW 1 ---------------------------------------------------------------------------------------------------------------------->
+                <div class="carousel-item active">
+                  <div class="row">
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="images/make/1.png">
+                        <div class="card-body">
+                          <h4 class="card-title">Jeep</h4>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="images/make/2.webp">
+                        <div class="card-body">
+                          <h4 class="card-title">Tesla</h4>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="images/make/3.jpg">
+                        <div class="card-body">
+                          <h4 class="card-title">Subaru</h4>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="images/make/4.jpg">
+                        <div class="card-body">
+                          <h4 class="card-title">Porsche</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- ROW 2 ---------------------------------------------------------------------------------------------------------------------->
+                <div class="carousel-item">
+                  <div class="row">
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="images/make/5.webp">
+                        <div class="card-body">
+                          <h4 class="card-title">Jeep</h4>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="images/make/6.webp">
+                        <div class="card-body">
+                          <h4 class="card-title">Tesla</h4>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="images/make/7.jpg">
+                        <div class="card-body">
+                          <h4 class="card-title">Subaru</h4>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                      <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="images/make/6.webp">
+                        <div class="card-body">
+                          <h4 class="card-title">Tesla</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+  </div>
+
+  <!-- =============================================== section 3 =================================================== -->
+
+  <div class="parent section3">
+    <img src="images/section3.png" class="img img-fluid" alt="Responsive image">
+
+    <div class="text-over-img ">
+
+      <div class="fuel">
+        <h1 class=" pt-5 ps-4">Fuel your daydreams</h1>
+        <p class="pt-0">Stoke your wanderlust with some dreamy photo <br>chronicles of road trip adventures.</p>
+        <a href="#" class=" btn btn-light btn-lg explore" role="button" aria-pressed="true">Explore Travelogues</a>
+      </div>
+
+      <!-- little pic ---------------------------------------------------------------------------------------------------------------------->
+      <div class="container">
+        <div class="row justify-content-md-center">
+
+          <div class="card bg-dark text-white p-4" style="width: 25rem;">
+            <div class="card-body text-white">
+              <h6 class="card-subtitle mb-2 text-muted  text-white pb-4" style="color: white;">FEATURED TRAVELOGUE</h6>
+              <h5 class="card-title text-white pb-3">An Olympic experience in Washington</h5>
+              <p class="card-text  text-white">Discover the epic waterfalls, moody weather, and lush forests of
+                coastal Washington.</p>
+              <a href="#" class="card-link  text-white">Read more</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- =============================================== section 4 =================================================== -->
+
+  <div class="parent section4 pb-5">
+    <img src="images/section4.png" class="img img-fluid " alt="Responsive image">
+
+    <div class="text-over-img ">
+
+      <div class="container mb-5">
+        <div class="">
+          <h1><mark id="marker" style="color: #121214;">Shop Turo gift cards</mark></h1>
+          <p>Introducing Turo gift cards! Give the gift of<br> exploration or help make any special <br>occasion
+            extra-memorable.</p>
+        </div>
+        <a href="#" class=" btn btn-light btn-lg explore mb-5" role="button" aria-pressed="true">Shop gift cards</a>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- =============================================== section 5 =================================================== -->
+
+  <div class="parent section3 section5 pb-5">
+    <img src="images/section5.png" class="img img-fluid" alt="Responsive image">
+
+    <div class="text-over-img pt-5">
+
+      <div class="fuel">
+        <h1 class="pt-5 ps-3">Meet the hosts</h1>
+        <p>Top hosts on Turo</p>
+      </div>
+
+
+      <section class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+
+            <!-- BUTTONS ---------------------------------------------------------------------------------------------------------------------->
+            <div class="col-12 text-right">
+              <a class="btn  mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                <i class="fa fa-arrow-left"></i>
+              </a>
+              <a class="btn  mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                <i class="fa fa-arrow-right"></i>
+              </a>
+            </div>
+
+            <!-- Make Cards ---------------------------------------------------------------------------------------------------------------------->
+            <div class="col-12 pb-5">
+              <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner pb-5">
+
+                  <!-- ROW 1 ---------------------------------------------------------------------------------------------------------------------->
+                  <div class="card" style="width: 18rem;">
+                    <img src="images/review/heba.jpg" class="card-img-top cc" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+    </div>
+    </section>
+  </div>
+
+
+
+  </div>
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+
+  <!-- ================================================================================================== -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+  <!-- ================================================================================================== -->
   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+  </script>
 </body>
 
 </html>
